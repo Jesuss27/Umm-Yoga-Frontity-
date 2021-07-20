@@ -9,7 +9,7 @@ const Home = () => {
         <Container>
             <CTA>
                 <h1>YOGA FOR ALL</h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
                 <div className="btn">
                 <button>CLICK</button>
                 </div>
@@ -56,7 +56,8 @@ const Container = styled.div`
 `
 
 const CTA = styled.div`
-    margin: 2vh;
+    margin:2vh;
+    padding:4vh 0vh;
     height:88vh;
     width:33%;
     font-size:24px;
@@ -64,7 +65,8 @@ const CTA = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     h1{
-        color:#707070
+        color:#707070;
+        font-size:2.92em;
     }
     .btn{
         display:flex;
@@ -83,7 +85,7 @@ const BlobHome = styled.div`
     display:flex;
     justify-content: center;
     align-items: center;
-    height:92vh;
+    height:88vh;
     width:34%;
     svg{
         height:100%;
@@ -92,9 +94,14 @@ const BlobHome = styled.div`
     
 `
 const BigText = styled.div`
+    padding-left:2em;
     display:flex;
     justify-content: center;
     align-items:center;
-    height:92vh;
+    height:88vh;
     width:33%;
+    svg{
+        width:100%;
+        height:100%;
+    }
 `

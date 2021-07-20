@@ -4,7 +4,9 @@ import{ connect, Global, css } from "frontity"
 
 
 
+
 const Root = () => {
+
   return (
     <>
     <Global 
@@ -18,9 +20,11 @@ const Root = () => {
       html{
         font-family: montserrat;
         background-color: #FBFAF9;
+        padding:0 1rem;
       }`} />
-    <Nav />
-    <Landing />
+      <Nav /> 
+    
+
       
     </>
   );
