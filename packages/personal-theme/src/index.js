@@ -20,9 +20,10 @@ const Root = () => {
       html{
         font-family: montserrat;
         background-color: #FBFAF9;
-        padding:0 1rem;
+        padding:0rem;
       }`} />
       <Nav /> 
+      <Landing />
     
 
       

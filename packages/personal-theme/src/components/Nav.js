@@ -53,6 +53,7 @@ export default function Nav() {
 }
 
 const StyledNav = styled.div`
+    padding:0rem 2rem;
     display:flex;
     width:100%;
     height:8vh;
