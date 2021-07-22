@@ -58,6 +58,7 @@ const StyledNav = styled.div`
     width:100%;
     height:8vh;
     background:aliceblue;
+    color:var(--color-text);
     .mobile-nav{
         width:100%;
         display:flex;
@@ -73,14 +74,12 @@ const StyledNav = styled.div`
         display:flex;
         justify-content: space-between;
         width:33%;
-        color:#707070
          }
         .logo{
         text-align: center;;
         width:33%;
         }
         .links{
-        color:#707070;
         width:33%;
         display:flex;
             ul{

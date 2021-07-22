@@ -10,6 +10,7 @@ const Landing = () => {
     return(
         <>
         <Home />
+        <Checklist />
 
 
         </>

@@ -16,11 +16,17 @@ const Root = () => {
         padding:0;
         box-sizing:border-box;
       }
+      :root{
+        --color-text:#707070;
+        --color-accent:#fec5bb;
+        --color-secondary:#fec89a;
+        --color-bg:#FBFAF9
+        --color-secondary-bg:#FFD7BA
+      }
 
       html{
         font-family: montserrat;
         background-color: #FBFAF9;
-        padding:0rem;
       }`} />
       <Nav /> 
       <Landing />

@@ -61,23 +61,20 @@ const Container = styled.div`
     flex-direction:column;
     align-items:center;
     justify-content: space-between;
+    font-family: rockwell ;
+    color:#707070;
     .svg-container{
         display:inline-block;
         position:relative;
         width:100%;
         height:100%;
         vertical-align: middle;
-        .svg-content{
-            display:inline-block;
-            position:absolute;
-        }
-
     }
     .CTA{
         display: flex;
         flex-direction:column;
         align-items:center;
-        padding:4rem 1rem;
+        padding:4rem 1rem 0.5rem;
         .cta-container{
             height:100%;
             display:flex;
@@ -92,14 +89,15 @@ const Container = styled.div`
             p{
                 text-align:center;
                 margin-bottom:2rem;
+                font-family:montserrat;
             }
             .btn{
             display:flex;
             justify-content: center;
             align-items: center;
                 button{
-                height:11em;
-                width:11em;
+                height:6em;
+                width:6em;
                 border-radius: 50%; 
                 background:#584A3E;
                 color:white
@@ -142,8 +140,17 @@ const Container = styled.div`
             color:#707070
         }
         .btn{
-            border:none;
-        }
+            display:flex;
+            justify-content: center;
+            align-items: center;
+                button{
+                height:10em;
+                width:10em;
+                border-radius: 50%; 
+                background:#584A3E;
+                color:white
+                }
+            }
     }
         
     }
@@ -179,6 +186,17 @@ const Container = styled.div`
         .svg-content{
             display:inline-block;
         }
+    }
+}
+
+@media (max-width:1000px) {
+    *{
+        flex-basis:100%;
+    }
+
+    .svg-container-text{
+        display:none;
+        
     }
 }
 
