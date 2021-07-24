@@ -68,7 +68,9 @@ const Container = styled.div`
         position:relative;
         width:100%;
         height:100%;
+        overflow:hidden;
         vertical-align: middle;
+        margin-bottom:0rem;
     }
     .CTA{
         display: flex;
@@ -87,6 +89,7 @@ const Container = styled.div`
                 margin-bottom: 2rem;
             }
             p{
+                max-width:45ch;
                 text-align:center;
                 margin-bottom:2rem;
                 font-family:montserrat;
@@ -96,8 +99,8 @@ const Container = styled.div`
             justify-content: center;
             align-items: center;
                 button{
-                height:6em;
-                width:6em;
+                height:6rem;
+                width:6rem;
                 border-radius: 50%; 
                 background:#584A3E;
                 color:white
