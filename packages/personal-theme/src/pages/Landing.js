@@ -11,6 +11,7 @@ const Landing = () => {
         <>
         <Home />
         <Checklist />
+        <Cards />
 
 
         </>
